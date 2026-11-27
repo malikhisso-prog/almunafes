@@ -1,0 +1,34 @@
+
+# منع استعراض محتويات المجلدات
+Options -Indexes
+
+# حماية ملفات الإعدادات
+<Files "config.php">
+    Require all denied
+</Files>
+
+# منع الوصول إلى المجلدات الداخلية
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+
+    RewriteRule ^includes/ - [F,L]
+    RewriteRule ^data/ - [F,L]
+</IfModule>
+
+# منع الوصول إلى الملفات الحساسة
+<FilesMatch "\.(env|ini|log|sql|bak|old|config)$">
+    Require all denied
+</FilesMatch>
+
+# منع الوصول إلى ملفات النظام المخفية
+<FilesMatch "^\.">
+    Require all denied
+</FilesMatch>
+# Sitemap
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteRule ^sitemap\.xml$ sitemap.php [L]
+</IfModule>
+
+# Custom 404 page
+ErrorDocument 404 /almunafes/404.php

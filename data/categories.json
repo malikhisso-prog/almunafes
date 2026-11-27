@@ -1,0 +1,43 @@
+
+[
+    {
+        "id": 1,
+        "slug": "cardio",
+        "name": "أجهزة الكارديو",
+        "description": "أجهزة اللياقة والتحمل وتمارين القلب.",
+        "image": "assets/images/categories/cardio.jpg",
+        "active": true
+    },
+    {
+        "id": 2,
+        "slug": "strength",
+        "name": "أجهزة القوة",
+        "description": "أجهزة المقاومة وتدريب العضلات.",
+        "image": "assets/images/categories/strength.jpg",
+        "active": true
+    },
+    {
+        "id": 3,
+        "slug": "free-weights",
+        "name": "الأوزان الحرة",
+        "description": "دمبل وبار وأقراص ومقاعد التدريب.",
+        "image": "assets/images/categories/free-weights.jpg",
+        "active": true
+    },
+    {
+        "id": 4,
+        "slug": "accessories",
+        "name": "الإكسسوارات الرياضية",
+        "description": "ملحقات وأدوات التدريب الرياضي.",
+        "image": "assets/images/categories/accessories.jpg",
+        "active": true
+    },
+    {
+        "id": 5,
+        "slug": "functional",
+        "name": "التدريب الوظيفي",
+        "description": "معدات التدريب الوظيفي واللياقة المتنوعة.",
+        "image": "assets/images/categories/functional.jpg",
+        "active": true
+    }
+]

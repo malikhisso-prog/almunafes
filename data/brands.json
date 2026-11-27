@@ -1,0 +1,33 @@
+
+[
+    {
+        "id": 1,
+        "slug": "brand-one",
+        "name": "Brand One",
+        "country": "غير محدد",
+        "description": "علامة تجارية متخصصة في تصنيع أجهزة اللياقة البدنية والكارديو الاحترافية.",
+        "logo": "brands/brand-one.png",
+        "cover": "brands/brand-one-cover.jpg",
+        "active": true
+    },
+    {
+        "id": 2,
+        "slug": "brand-two",
+        "name": "Brand Two",
+        "country": "غير محدد",
+        "description": "علامة تجارية تقدم أجهزة مقاومة وقوة مخصصة للاستخدام التجاري.",
+        "logo": "brands/brand-two.png",
+        "cover": "brands/brand-two-cover.jpg",
+        "active": true
+    },
+    {
+        "id": 3,
+        "slug": "brand-three",
+        "name": "Brand Three",
+        "country": "غير محدد",
+        "description": "علامة تجارية متخصصة في الأوزان الحرة ومستلزمات التدريب الرياضي.",
+        "logo": "brands/brand-three.png",
+        "cover": "brands/brand-three-cover.jpg",
+        "active": true
+    }
+]

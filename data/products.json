@@ -1,0 +1,123 @@
+
+[
+    {
+        "id": 1,
+        "slug": "commercial-treadmill",
+        "name": "جهاز المشي التجاري",
+        "brand": "Brand One",
+        "category": "cardio",
+        "description": "جهاز مشي احترافي مصمم للاستخدام المكثف داخل الأندية الرياضية.",
+        "short_description": "جهاز مشي تجاري عالي الأداء.",
+        "image": "assets/images/products/treadmill.jpg",
+        "gallery": [
+            "assets/images/products/treadmill.jpg"
+        ],
+        "active": true,
+        "featured": true
+    },
+    {
+        "id": 2,
+        "slug": "elliptical-trainer",
+        "name": "جهاز الأوربتراك",
+        "brand": "Brand One",
+        "category": "cardio",
+        "description": "جهاز تدريب بيضاوي يوفر تمريناً فعالاً للقلب والأوعية الدموية.",
+        "short_description": "تدريب متكامل منخفض التأثير على المفاصل.",
+        "image": "assets/images/products/elliptical.jpg",
+        "gallery": [
+            "assets/images/products/elliptical.jpg"
+        ],
+        "active": true,
+        "featured": true
+    },
+    {
+        "id": 3,
+        "slug": "exercise-bike",
+        "name": "الدراجة الرياضية",
+        "brand": "Brand Two",
+        "category": "cardio",
+        "description": "دراجة رياضية احترافية مناسبة لتمارين التحمل واللياقة.",
+        "short_description": "دراجة رياضية للاستخدام التجاري.",
+        "image": "assets/images/products/exercise-bike.jpg",
+        "gallery": [
+            "assets/images/products/exercise-bike.jpg"
+        ],
+        "active": true,
+        "featured": false
+    },
+    {
+        "id": 4,
+        "slug": "chest-press-machine",
+        "name": "جهاز ضغط الصدر",
+        "brand": "Brand Two",
+        "category": "strength",
+        "description": "جهاز مقاومة مخصص لتدريب عضلات الصدر بحركة مستقرة ومريحة.",
+        "short_description": "جهاز احترافي لتدريب عضلات الصدر.",
+        "image": "assets/images/products/chest-press.jpg",
+        "gallery": [
+            "assets/images/products/chest-press.jpg"
+        ],
+        "active": true,
+        "featured": true
+    },
+    {
+        "id": 5,
+        "slug": "lat-pulldown-machine",
+        "name": "جهاز السحب العلوي",
+        "brand": "Brand Three",
+        "category": "strength",
+        "description": "جهاز متخصص لتدريب عضلات الظهر والجزء العلوي من الجسم.",
+        "short_description": "تدريب فعال لعضلات الظهر.",
+        "image": "assets/images/products/lat-pulldown.jpg",
+        "gallery": [
+            "assets/images/products/lat-pulldown.jpg"
+        ],
+        "active": true,
+        "featured": false
+    },
+    {
+        "id": 6,
+        "slug": "leg-press-machine",
+        "name": "جهاز ضغط الأرجل",
+        "brand": "Brand Three",
+        "category": "strength",
+        "description": "جهاز قوي لتدريب عضلات الأرجل مناسب للأندية الرياضية التجارية.",
+        "short_description": "جهاز احترافي لتقوية عضلات الأرجل.",
+        "image": "assets/images/products/leg-press.jpg",
+        "gallery": [
+            "assets/images/products/leg-press.jpg"
+        ],
+        "active": true,
+        "featured": true
+    },
+    {
+        "id": 7,
+        "slug": "adjustable-bench",
+        "name": "مقعد الأوزان القابل للتعديل",
+        "brand": "Brand One",
+        "category": "free-weights",
+        "description": "مقعد تدريبي متين يتيح أوضاعاً متعددة لتمارين الأوزان الحرة.",
+        "short_description": "مقعد متعدد الاستخدامات.",
+        "image": "assets/images/products/adjustable-bench.jpg",
+        "gallery": [
+            "assets/images/products/adjustable-bench.jpg"
+        ],
+        "active": true,
+        "featured": false
+    },
+    {
+        "id": 8,
+        "slug": "dumbbell-set",
+        "name": "مجموعة الدمبل",
+        "brand": "Brand Two",
+        "category": "free-weights",
+        "description": "مجموعة أوزان حرة مناسبة لمختلف مستويات التدريب.",
+        "short_description": "أوزان حرة للاستخدام الاحترافي.",
+        "image": "assets/images/products/dumbbells.jpg",
+        "gallery": [
+            "assets/images/products/dumbbells.jpg"
+        ],
+        "active": true,
+        "featured": true
+    }
+]
